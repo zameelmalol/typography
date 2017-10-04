@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper {
+	border: 1px outset rgb(255, 99, 27);
+	padding: 15px;
+	margin: 2px;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+#liq_layout {
+	width: 78.125%;
+	border: #CCC solid 0.5px;
+	padding: 5px;
+}
+#fix_layout {
+	width: 768px;
+	border: #CCC solid 0.5px;
+	padding: 5px;
+}
+#lightondark_good {
+	color: #F2F2F2;
+	background-color: #2E2E2E;
+	padding: 5px;
+}
+#lightondark_bad {
+	color: #FFF;
+	background-color: #00F;
+	padding: 5px;
+}
+#darkonlight_good {
+	color: #333;
+	background-color: #FBEFF8;
+	padding: 5px;
+}
+#darkonlight_bad {
+	color: #DF013A;
+	background-color: #FFFF00;
+	padding: 5px;
+}
+#question2 {
+	font-family: 'Open Sans', sans-serif;
+}
+#question3 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+}
+#question4 {
+	font-family: 'Arvo', serif;
+	font-size: 18px;
+}
+#question5 {
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+}
+.line_hgt_lg {
+	line-height: 30px;
+}
+.line_hgt_v_lg {
+	line-height: 90px;
+}
+.line_hgt_sm {
+	line-height: 20px;
+}
+.line_hgt_v_sm {
+	line-height: 15px;
+}
+.txt_algn {
+	text-align: center;
+}
+hr {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+h1 {
+	/*	text-shadow: -1px 0 #2E2E2E, 0 0.5px #2E2E2E, 0.5px 0 #2E2E2E, 0 -1px #2E2E2E;*/
+	font-size: 200%;
+	color: #F60;
+	font-family: "Arial", sans-serif;
+}
+h1 a {
+	text-decoration: none;
+}
+h1 a:hover {
+	text-decoration: underline;
+}
